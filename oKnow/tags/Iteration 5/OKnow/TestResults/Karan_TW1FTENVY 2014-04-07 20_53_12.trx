@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a3b0b895-9372-46da-9612-f7df235e725e" name="Karan@TW1FTENVY 2014-04-07 20:53:12" runUser="TW1FTENVY\Karan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cbb3cf31-cc5b-426d-a718-c9b63d5ad07b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Karan_TW1FTENVY 2014-04-07 20_53_12">
+      <DeploymentItem filename="C:\Users\Karan\Downloads\oKnow\trunk\OKnow\OKnow\OKnow\bin\x86\Debug\OKnow.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-04-07T20:53:12.0556754-05:00" queuing="2014-04-07T20:53:12.7942231-05:00" start="2014-04-07T20:53:12.8422557-05:00" finish="2014-04-07T20:53:53.0150750-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="49" executed="43" passed="42" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="6" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TW1FTENVY" outcome="Error" timestamp="2014-04-07T20:53:53.0130736-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestImageTile" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="fc573d78-4d31-4cef-4a5f-301b8eb35a18">
+      <Execution id="48ff5b64-3554-41b8-bfb7-51eabb08ce36" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestImageTile" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentNumPlayers1" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="957b084a-82f1-c373-da0f-c9ece73ff22b">
+      <Execution id="8785cdd0-7466-44c2-a0b6-1469db1c32c3" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentNumPlayers1" />
+    </UnitTest>
+    <UnitTest name="testInitialize" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="35fdcf18-0be3-5a33-49ea-9deec449ce72">
+      <Execution id="d332a32a-9e06-42a6-888a-0fc14a89e374" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testInitialize" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentNumPlayers2" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="a99a0acb-4556-0740-9f3d-fecb7b1ed1f8">
+      <Execution id="13240a60-3aa2-4d9c-a962-fc90203ac39f" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentNumPlayers2" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentCategory2" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="f1fc9670-606b-c73a-b756-bddec5b37878">
+      <Execution id="86564786-b47d-4631-8f59-eadf45b5959d" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentCategory2" />
+    </UnitTest>
+    <UnitTest name="VictoryTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="212fceb0-e09b-bfef-a8c4-50fb8b97b08a">
+      <Execution id="4c3ffd85-926f-40c1-ab23-114a5ad4a5a2" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.PlayerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VictoryTest" />
+    </UnitTest>
+    <UnitTest name="TestUpdateEventEquality" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="f92b1b75-bfbf-8087-5727-33e690da2f7f">
+      <Execution id="db63d01f-959e-46de-b1a4-6a36f21c9467" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.IOTests.IOSubjectTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateEventEquality" />
+    </UnitTest>
+    <UnitTest name="TestCategory" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="a9a9f0f1-8a6b-9673-3b72-bfc82b22d458">
+      <Execution id="233f2de2-6f5b-4718-b0ff-b2a76e2ecd43" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCategory" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentNumPlayers5" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="7da4a519-5129-89a7-3d39-c6df56ad0742">
+      <Execution id="c60b2a08-6df7-462b-a6f5-fe2966e0754e" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentNumPlayers5" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentNumPlayers4" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="47b57d83-2c08-99b9-f3b1-14d4cde9b1e8">
+      <Execution id="ff2721b7-25c4-4e7e-b4a5-219bf80e16f2" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentNumPlayers4" />
+    </UnitTest>
+    <UnitTest name="StartGameTest2" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="8e77a49e-1ebb-33d0-321e-b1c7c45a8fa3">
+      <Execution id="5080e131-dd9c-4d8c-bc77-5920939f59fd" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.Game1Test, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StartGameTest2" />
+    </UnitTest>
+    <UnitTest name="IsAdjacentTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="72f264a5-7de2-336c-60e6-b904b0cc1eea">
+      <Execution id="209a7981-a79e-44c4-8c01-53459c75e04e" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsAdjacentTest" />
+    </UnitTest>
+    <UnitTest name="TestMusicTile" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="3a6c85dc-ff2e-cb74-a68e-e4c4f59a65bd">
+      <Execution id="37793827-b0ca-49d6-852e-2a99c13d2b6b" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMusicTile" />
+    </UnitTest>
+    <UnitTest name="GetSetPlayerTileTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="f0bdd7dd-7cef-1459-6d80-5f06a72cf810">
+      <Execution id="9585ba96-99a1-43e0-aee2-89cbcd1c74aa" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.PlayerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSetPlayerTileTest" />
+    </UnitTest>
+    <UnitTest name="GetSetBoardXTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="42431ad3-b2fa-3a89-f07f-b02ce47f85e3">
+      <Execution id="c8d4f5e4-1bf5-40bc-b460-e8959a974fda" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSetBoardXTest" />
+    </UnitTest>
+    <UnitTest name="QuestionNotifyIncorrectTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="25d0a51a-60b0-76e9-f661-66ae7f35161c">
+      <Execution id="c22d3aa1-317e-4b31-86cc-e95ad87c2ba2" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerAQuestionTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuestionNotifyIncorrectTest" />
+    </UnitTest>
+    <UnitTest name="TestUpdate" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="d0ddb7c1-ff4a-b3fe-6f4c-174f7a2fe81e">
+      <Execution id="18c10ed5-1f2e-4f9e-b976-80b99989984b" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.IOTests.IOSubjectTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdate" />
+    </UnitTest>
+    <UnitTest name="TestUpdateEventInequality" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="7e5b7cb7-b731-5fcc-3da1-9df84dfa3118">
+      <Execution id="44084c10-8a66-4ad1-90eb-d57847d426da" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.IOTests.IOSubjectTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUpdateEventInequality" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentCategory6" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="d22d02ed-bb5c-57c7-bac8-2a4213191ea2">
+      <Execution id="7ed953ca-f46f-417f-bacb-5bf2ad562461" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentCategory6" />
+    </UnitTest>
+    <UnitTest name="TestGetRightArrow" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="dee46b0c-2f9d-52fc-c7b4-b5b58ca85be6">
+      <Execution id="62bda89b-4d60-4bac-8a1c-d89cd211ed5b" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetRightArrow" />
+    </UnitTest>
+    <UnitTest name="PlayersTest2" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="e0382ce5-6740-35b3-fff5-be32133f4b54">
+      <Execution id="ad13a065-3a9e-4722-804d-e30a0315b149" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.GameBoardTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayersTest2" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentCategory1" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="3afc1bea-bfbf-3c8e-8104-72a764af8b32">
+      <Execution id="0f187a97-b5a4-46bb-954c-41870458ff69" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentCategory1" />
+    </UnitTest>
+    <UnitTest name="TestJokerTile" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="d3f09b35-b610-a3b7-aac9-aa4bbf66fea6">
+      <Execution id="56b00bb3-a76a-4d25-a35b-c58671f9330f" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestJokerTile" />
+    </UnitTest>
+    <UnitTest name="MultiplePlayerTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="d6f0928c-7367-b459-6ff5-32ca0241f57e">
+      <Execution id="ccdfb0c8-1c47-4c59-8f58-097b34d8e32e" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.PlayerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MultiplePlayerTest" />
+    </UnitTest>
+    <UnitTest name="testAnswerChoices" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="c633b636-e73d-6a16-4a3c-3a2d73d1a317">
+      <Execution id="5785ad96-c2b4-4a3a-ab21-3466a50d54a8" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testAnswerChoices" />
+    </UnitTest>
+    <UnitTest name="PlayerMoveStateTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="c5f604eb-bb73-2ed4-4b97-3223456ec415">
+      <Execution id="ffa0f9b4-65cb-42f3-8e6b-f5cd7e7a67ef" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerAQuestionTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayerMoveStateTest" />
+    </UnitTest>
+    <UnitTest name="testGetRand" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="3e6d226b-4bb5-5427-0a53-d601701ece07">
+      <Execution id="88d04ef6-6e0e-442b-9843-5833dddacfcc" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testGetRand" />
+    </UnitTest>
+    <UnitTest name="TestGetRandomQuestion" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="87ab6c4b-2e53-ad24-94d0-e1500744f03c">
+      <Execution id="5acf414d-eeba-4cc8-b2c5-8489f5830379" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.QuestionPoolTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetRandomQuestion" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentCategory3" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="6d90f370-9d6b-db58-3da4-8603bcc06965">
+      <Execution id="b55747e1-416f-4c5b-b21a-5eb620ca0d73" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentCategory3" />
+    </UnitTest>
+    <UnitTest name="QuestionNotifyTimedOutTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="8eeca9a8-568d-a203-d287-a4d2eed3e1dd">
+      <Execution id="cda97b26-044f-4bed-acc7-83ebb3726857" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerAQuestionTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuestionNotifyTimedOutTest" />
+    </UnitTest>
+    <UnitTest name="GetSetPlayerNameTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="c4cd8056-c9ff-caf6-98af-4ccd1972a29a">
+      <Execution id="0752f7b3-74b2-477a-9ba1-0adfd45bf289" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.PlayerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSetPlayerNameTest" />
+    </UnitTest>
+    <UnitTest name="GetSetBoardYTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="2ee5ec05-43c5-a370-94e2-7ce68113ecd3">
+      <Execution id="e5aae402-6b86-4216-9df5-cf0c3d9fbb41" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSetBoardYTest" />
+    </UnitTest>
+    <UnitTest name="SkipQuestionStateTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="a55ea7c9-eabb-9207-ac1a-8e11aa747df4">
+      <Execution id="1559722d-838d-435d-a385-60661b8be626" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.SkipAQuestionTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SkipQuestionStateTest" />
+    </UnitTest>
+    <UnitTest name="StartGameTest1" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="adf1bbe7-f955-f1aa-c051-332a545e94e4">
+      <Execution id="43e5869d-ddee-4a59-8187-eb686be50052" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.Game1Test, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StartGameTest1" />
+    </UnitTest>
+    <UnitTest name="TestGetLeftArrow" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="fc6917c6-2e73-f40a-5bb6-252957ae3d5b">
+      <Execution id="bc21c45b-aa4f-4dbe-b7df-2be0e1dc75f2" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetLeftArrow" />
+    </UnitTest>
+    <UnitTest name="TestDeathTile" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="52f2ba69-e8af-366e-fa05-7e9d58be5419">
+      <Execution id="de01a05e-b5d8-4f72-8309-090807fb6b56" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeathTile" />
+    </UnitTest>
+    <UnitTest name="QuestionNotifyCorrectTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="0a8df4b3-fa85-ec9c-d895-b7c85a5e6e45">
+      <Execution id="8978aed9-99e0-4fa3-927f-426e9015a371" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerAQuestionTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuestionNotifyCorrectTest" />
+    </UnitTest>
+    <UnitTest name="TestGetRandomMusicQuestion" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="0177b86e-d5fa-cf5b-7ea6-a50aa23a1f27">
+      <Execution id="e8b12c87-fc2c-40b0-ac6a-73c2b343d97d" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.QuestionPoolTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetRandomMusicQuestion" />
+    </UnitTest>
+    <UnitTest name="PlayersTest1" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="b0b5b9af-8fcb-9aa2-b576-ea724fced88f">
+      <Execution id="53cc4a07-a996-4cee-8ea3-433915b306e3" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.GameBoardTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayersTest1" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentNumPlayers6" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="4b07ec87-2578-4a11-af32-e14de6fedfb0">
+      <Execution id="2d60c6ef-16e6-4d14-951f-b3c7bfe17f6a" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentNumPlayers6" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentNumPlayers3" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="b0f5a7d2-2c31-4fb3-e775-c49bc4094186">
+      <Execution id="414f0e18-c4d3-403d-a727-3c5ab54dd141" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentNumPlayers3" />
+    </UnitTest>
+    <UnitTest name="TileConstructorTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="93e1a339-56ec-6a9a-cc36-ee3412430608">
+      <Execution id="5b9f5664-d049-4089-890e-54e271c827fa" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.PlayerTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TileConstructorTest" />
+    </UnitTest>
+    <UnitTest name="TileConstructorTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="77e10824-1cca-c689-50b2-ed0e80430907">
+      <Execution id="ff0788e4-c7e1-401f-9480-2764b30baa7d" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TileConstructorTest" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentCategory5" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="dbf1d0a3-6fa9-ebb2-2c02-e59981d64ed1">
+      <Execution id="e5af4ba1-4fac-48f7-a9d6-4a6da6d916ad" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentCategory5" />
+    </UnitTest>
+    <UnitTest name="TestQuestionType" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="932006bf-cc9a-1649-4dd2-a8c07ced02bd">
+      <Execution id="57df68a9-8f5f-45ba-82f1-d09058542085" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.QuestionTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestQuestionType" />
+    </UnitTest>
+    <UnitTest name="TestGetRandomImageQuestion" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="604165a1-c7e2-e583-c8fc-41ba1842763f">
+      <Execution id="e6a83b5a-0bf5-4f38-a28b-f409e746e965" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.QuestionPoolTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetRandomImageQuestion" />
+    </UnitTest>
+    <UnitTest name="QuestionNotifyTimedTest" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="6ddec735-adc4-4828-1b50-0783b6fe82b2">
+      <Execution id="544d69b2-f12c-4121-9548-612cddb95517" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.AnswerAQuestionTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="QuestionNotifyTimedTest" />
+    </UnitTest>
+    <UnitTest name="TestStandardTile" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="e4ab14aa-1429-271f-5b09-0f8f32eeab9a">
+      <Execution id="6834000c-d2b2-449a-87ad-e14ac1c4fdd3" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.TileTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestStandardTile" />
+    </UnitTest>
+    <UnitTest name="TestGetCurrentCategory4" storage="c:\users\karan\downloads\oknow\trunk\oknow\oknowtest\bin\x86\debug\oknowtest.dll" id="0981af74-4ce1-6ad4-aeb6-cf0728ecf654">
+      <Execution id="ab30f891-87d5-4c75-8a5b-1c09caacdaf1" />
+      <TestMethod codeBase="C:/Users/Karan/Downloads/oKnow/trunk/OKnow/OKnowTest/bin/x86/Debug/OKnowTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="OKnowTest.StartScreenTest, OKnowTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetCurrentCategory4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d0ddb7c1-ff4a-b3fe-6f4c-174f7a2fe81e" executionId="18c10ed5-1f2e-4f9e-b976-80b99989984b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f92b1b75-bfbf-8087-5727-33e690da2f7f" executionId="db63d01f-959e-46de-b1a4-6a36f21c9467" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e5b7cb7-b731-5fcc-3da1-9df84dfa3118" executionId="44084c10-8a66-4ad1-90eb-d57847d426da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87ab6c4b-2e53-ad24-94d0-e1500744f03c" executionId="5acf414d-eeba-4cc8-b2c5-8489f5830379" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0177b86e-d5fa-cf5b-7ea6-a50aa23a1f27" executionId="e8b12c87-fc2c-40b0-ac6a-73c2b343d97d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="604165a1-c7e2-e583-c8fc-41ba1842763f" executionId="e6a83b5a-0bf5-4f38-a28b-f409e746e965" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35fdcf18-0be3-5a33-49ea-9deec449ce72" executionId="d332a32a-9e06-42a6-888a-0fc14a89e374" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c633b636-e73d-6a16-4a3c-3a2d73d1a317" executionId="5785ad96-c2b4-4a3a-ab21-3466a50d54a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9a9f0f1-8a6b-9673-3b72-bfc82b22d458" executionId="233f2de2-6f5b-4718-b0ff-b2a76e2ecd43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e6d226b-4bb5-5427-0a53-d601701ece07" executionId="88d04ef6-6e0e-442b-9843-5833dddacfcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="957b084a-82f1-c373-da0f-c9ece73ff22b" executionId="8785cdd0-7466-44c2-a0b6-1469db1c32c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a99a0acb-4556-0740-9f3d-fecb7b1ed1f8" executionId="13240a60-3aa2-4d9c-a962-fc90203ac39f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0f5a7d2-2c31-4fb3-e775-c49bc4094186" executionId="414f0e18-c4d3-403d-a727-3c5ab54dd141" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47b57d83-2c08-99b9-f3b1-14d4cde9b1e8" executionId="ff2721b7-25c4-4e7e-b4a5-219bf80e16f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7da4a519-5129-89a7-3d39-c6df56ad0742" executionId="c60b2a08-6df7-462b-a6f5-fe2966e0754e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b07ec87-2578-4a11-af32-e14de6fedfb0" executionId="2d60c6ef-16e6-4d14-951f-b3c7bfe17f6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adf1bbe7-f955-f1aa-c051-332a545e94e4" executionId="43e5869d-ddee-4a59-8187-eb686be50052" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e77a49e-1ebb-33d0-321e-b1c7c45a8fa3" executionId="5080e131-dd9c-4d8c-bc77-5920939f59fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="932006bf-cc9a-1649-4dd2-a8c07ced02bd" executionId="57df68a9-8f5f-45ba-82f1-d09058542085" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5f604eb-bb73-2ed4-4b97-3223456ec415" executionId="ffa0f9b4-65cb-42f3-8e6b-f5cd7e7a67ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a8df4b3-fa85-ec9c-d895-b7c85a5e6e45" executionId="8978aed9-99e0-4fa3-927f-426e9015a371" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25d0a51a-60b0-76e9-f661-66ae7f35161c" executionId="c22d3aa1-317e-4b31-86cc-e95ad87c2ba2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ddec735-adc4-4828-1b50-0783b6fe82b2" executionId="544d69b2-f12c-4121-9548-612cddb95517" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8eeca9a8-568d-a203-d287-a4d2eed3e1dd" executionId="cda97b26-044f-4bed-acc7-83ebb3726857" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0b5b9af-8fcb-9aa2-b576-ea724fced88f" executionId="53cc4a07-a996-4cee-8ea3-433915b306e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0382ce5-6740-35b3-fff5-be32133f4b54" executionId="ad13a065-3a9e-4722-804d-e30a0315b149" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a55ea7c9-eabb-9207-ac1a-8e11aa747df4" executionId="1559722d-838d-435d-a385-60661b8be626" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77e10824-1cca-c689-50b2-ed0e80430907" executionId="ff0788e4-c7e1-401f-9480-2764b30baa7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42431ad3-b2fa-3a89-f07f-b02ce47f85e3" executionId="c8d4f5e4-1bf5-40bc-b460-e8959a974fda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ee5ec05-43c5-a370-94e2-7ce68113ecd3" executionId="e5aae402-6b86-4216-9df5-cf0c3d9fbb41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72f264a5-7de2-336c-60e6-b904b0cc1eea" executionId="209a7981-a79e-44c4-8c01-53459c75e04e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4ab14aa-1429-271f-5b09-0f8f32eeab9a" executionId="6834000c-d2b2-449a-87ad-e14ac1c4fdd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a6c85dc-ff2e-cb74-a68e-e4c4f59a65bd" executionId="37793827-b0ca-49d6-852e-2a99c13d2b6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc573d78-4d31-4cef-4a5f-301b8eb35a18" executionId="48ff5b64-3554-41b8-bfb7-51eabb08ce36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52f2ba69-e8af-366e-fa05-7e9d58be5419" executionId="de01a05e-b5d8-4f72-8309-090807fb6b56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3f09b35-b610-a3b7-aac9-aa4bbf66fea6" executionId="56b00bb3-a76a-4d25-a35b-c58671f9330f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93e1a339-56ec-6a9a-cc36-ee3412430608" executionId="5b9f5664-d049-4089-890e-54e271c827fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0bdd7dd-7cef-1459-6d80-5f06a72cf810" executionId="9585ba96-99a1-43e0-aee2-89cbcd1c74aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4cd8056-c9ff-caf6-98af-4ccd1972a29a" executionId="0752f7b3-74b2-477a-9ba1-0adfd45bf289" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6f0928c-7367-b459-6ff5-32ca0241f57e" executionId="ccdfb0c8-1c47-4c59-8f58-097b34d8e32e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="212fceb0-e09b-bfef-a8c4-50fb8b97b08a" executionId="4c3ffd85-926f-40c1-ab23-114a5ad4a5a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3afc1bea-bfbf-3c8e-8104-72a764af8b32" executionId="0f187a97-b5a4-46bb-954c-41870458ff69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1fc9670-606b-c73a-b756-bddec5b37878" executionId="86564786-b47d-4631-8f59-eadf45b5959d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d90f370-9d6b-db58-3da4-8603bcc06965" executionId="b55747e1-416f-4c5b-b21a-5eb620ca0d73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0981af74-4ce1-6ad4-aeb6-cf0728ecf654" executionId="ab30f891-87d5-4c75-8a5b-1c09caacdaf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbf1d0a3-6fa9-ebb2-2c02-e59981d64ed1" executionId="e5af4ba1-4fac-48f7-a9d6-4a6da6d916ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d22d02ed-bb5c-57c7-bac8-2a4213191ea2" executionId="7ed953ca-f46f-417f-bacb-5bf2ad562461" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc6917c6-2e73-f40a-5bb6-252957ae3d5b" executionId="bc21c45b-aa4f-4dbe-b7df-2be0e1dc75f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dee46b0c-2f9d-52fc-c7b4-b5b58ca85be6" executionId="62bda89b-4d60-4bac-8a1c-d89cd211ed5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="18c10ed5-1f2e-4f9e-b976-80b99989984b" testId="d0ddb7c1-ff4a-b3fe-6f4c-174f7a2fe81e" testName="TestUpdate" computerName="TW1FTENVY" duration="00:00:00.0538974" startTime="2014-04-07T20:53:12.8632709-05:00" endTime="2014-04-07T20:53:13.5087260-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18c10ed5-1f2e-4f9e-b976-80b99989984b">
+    </UnitTestResult>
+    <UnitTestResult executionId="db63d01f-959e-46de-b1a4-6a36f21c9467" testId="f92b1b75-bfbf-8087-5727-33e690da2f7f" testName="TestUpdateEventEquality" computerName="TW1FTENVY" duration="00:00:00.0003168" startTime="2014-04-07T20:53:13.5147307-05:00" endTime="2014-04-07T20:53:13.5187472-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db63d01f-959e-46de-b1a4-6a36f21c9467">
+    </UnitTestResult>
+    <UnitTestResult executionId="44084c10-8a66-4ad1-90eb-d57847d426da" testId="7e5b7cb7-b731-5fcc-3da1-9df84dfa3118" testName="TestUpdateEventInequality" computerName="TW1FTENVY" duration="00:00:00.0002732" startTime="2014-04-07T20:53:13.5247378-05:00" endTime="2014-04-07T20:53:13.5287414-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44084c10-8a66-4ad1-90eb-d57847d426da">
+    </UnitTestResult>
+    <UnitTestResult executionId="5acf414d-eeba-4cc8-b2c5-8489f5830379" testId="87ab6c4b-2e53-ad24-94d0-e1500744f03c" testName="TestGetRandomQuestion" computerName="TW1FTENVY" duration="00:00:00.5823482" startTime="2014-04-07T20:53:13.5337433-05:00" endTime="2014-04-07T20:53:14.1192001-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5acf414d-eeba-4cc8-b2c5-8489f5830379">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8b12c87-fc2c-40b0-ac6a-73c2b343d97d" testId="0177b86e-d5fa-cf5b-7ea6-a50aa23a1f27" testName="TestGetRandomMusicQuestion" computerName="TW1FTENVY" duration="00:00:00.5877306" startTime="2014-04-07T20:53:14.1242006-05:00" endTime="2014-04-07T20:53:14.7146174-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8b12c87-fc2c-40b0-ac6a-73c2b343d97d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6a83b5a-0bf5-4f38-a28b-f409e746e965" testId="604165a1-c7e2-e583-c8fc-41ba1842763f" testName="TestGetRandomImageQuestion" computerName="TW1FTENVY" duration="00:00:00.5566758" startTime="2014-04-07T20:53:14.7196218-05:00" endTime="2014-04-07T20:53:15.2790171-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6a83b5a-0bf5-4f38-a28b-f409e746e965">
+    </UnitTestResult>
+    <UnitTestResult executionId="d332a32a-9e06-42a6-888a-0fc14a89e374" testId="35fdcf18-0be3-5a33-49ea-9deec449ce72" testName="testInitialize" computerName="TW1FTENVY" duration="00:00:00.0079500" startTime="2014-04-07T20:53:15.3430609-05:00" endTime="2014-04-07T20:53:15.3540696-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d332a32a-9e06-42a6-888a-0fc14a89e374">
+    </UnitTestResult>
+    <UnitTestResult executionId="5785ad96-c2b4-4a3a-ab21-3466a50d54a8" testId="c633b636-e73d-6a16-4a3c-3a2d73d1a317" testName="testAnswerChoices" computerName="TW1FTENVY" duration="00:00:00.0069942" startTime="2014-04-07T20:53:15.3590718-05:00" endTime="2014-04-07T20:53:15.3690784-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5785ad96-c2b4-4a3a-ab21-3466a50d54a8">
+      <Output>
+        <StdOut>Yellow</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="233f2de2-6f5b-4718-b0ff-b2a76e2ecd43" testId="a9a9f0f1-8a6b-9673-3b72-bfc82b22d458" testName="TestCategory" computerName="TW1FTENVY" duration="00:00:00.5457557" startTime="2014-04-07T20:53:15.3730813-05:00" endTime="2014-04-07T20:53:15.9224785-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="233f2de2-6f5b-4718-b0ff-b2a76e2ecd43">
+    </UnitTestResult>
+    <UnitTestResult executionId="88d04ef6-6e0e-442b-9843-5833dddacfcc" testId="3e6d226b-4bb5-5427-0a53-d601701ece07" testName="testGetRand" computerName="TW1FTENVY" duration="00:00:00.6052293" startTime="2014-04-07T20:53:15.9274722-05:00" endTime="2014-04-07T20:53:16.5349009-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88d04ef6-6e0e-442b-9843-5833dddacfcc">
+    </UnitTestResult>
+    <UnitTestResult executionId="8785cdd0-7466-44c2-a0b6-1469db1c32c3" testId="957b084a-82f1-c373-da0f-c9ece73ff22b" testName="TestGetCurrentNumPlayers1" computerName="TW1FTENVY" duration="00:00:00.0014309" startTime="2014-04-07T20:53:16.5409047-05:00" endTime="2014-04-07T20:53:16.5449080-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8785cdd0-7466-44c2-a0b6-1469db1c32c3">
+    </UnitTestResult>
+    <UnitTestResult executionId="13240a60-3aa2-4d9c-a962-fc90203ac39f" testId="a99a0acb-4556-0740-9f3d-fecb7b1ed1f8" testName="TestGetCurrentNumPlayers2" computerName="TW1FTENVY" duration="00:00:00.0002831" startTime="2014-04-07T20:53:16.5489112-05:00" endTime="2014-04-07T20:53:16.5519133-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13240a60-3aa2-4d9c-a962-fc90203ac39f">
+    </UnitTestResult>
+    <UnitTestResult executionId="414f0e18-c4d3-403d-a727-3c5ab54dd141" testId="b0f5a7d2-2c31-4fb3-e775-c49bc4094186" testName="TestGetCurrentNumPlayers3" computerName="TW1FTENVY" duration="00:00:00.0001766" startTime="2014-04-07T20:53:16.5559153-05:00" endTime="2014-04-07T20:53:16.5579184-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="414f0e18-c4d3-403d-a727-3c5ab54dd141">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff2721b7-25c4-4e7e-b4a5-219bf80e16f2" testId="47b57d83-2c08-99b9-f3b1-14d4cde9b1e8" testName="TestGetCurrentNumPlayers4" computerName="TW1FTENVY" duration="00:00:00.0001783" startTime="2014-04-07T20:53:16.5619204-05:00" endTime="2014-04-07T20:53:16.5649221-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff2721b7-25c4-4e7e-b4a5-219bf80e16f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="c60b2a08-6df7-462b-a6f5-fe2966e0754e" testId="7da4a519-5129-89a7-3d39-c6df56ad0742" testName="TestGetCurrentNumPlayers5" computerName="TW1FTENVY" duration="00:00:00.0002236" startTime="2014-04-07T20:53:16.5689253-05:00" endTime="2014-04-07T20:53:16.5719279-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c60b2a08-6df7-462b-a6f5-fe2966e0754e">
+    </UnitTestResult>
+    <UnitTestResult executionId="2d60c6ef-16e6-4d14-951f-b3c7bfe17f6a" testId="4b07ec87-2578-4a11-af32-e14de6fedfb0" testName="TestGetCurrentNumPlayers6" computerName="TW1FTENVY" duration="00:00:00.0001924" startTime="2014-04-07T20:53:16.5769327-05:00" endTime="2014-04-07T20:53:16.5809334-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d60c6ef-16e6-4d14-951f-b3c7bfe17f6a">
+    </UnitTestResult>
+    <UnitTestResult executionId="43e5869d-ddee-4a59-8187-eb686be50052" testId="adf1bbe7-f955-f1aa-c051-332a545e94e4" testName="StartGameTest1" computerName="TW1FTENVY" duration="00:00:01.0266854" startTime="2014-04-07T20:53:16.5849366-05:00" endTime="2014-04-07T20:53:17.6147547-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43e5869d-ddee-4a59-8187-eb686be50052">
+    </UnitTestResult>
+    <UnitTestResult executionId="5080e131-dd9c-4d8c-bc77-5920939f59fd" testId="8e77a49e-1ebb-33d0-321e-b1c7c45a8fa3" testName="StartGameTest2" computerName="TW1FTENVY" duration="00:00:00.7227493" startTime="2014-04-07T20:53:17.6187442-05:00" endTime="2014-04-07T20:53:18.3443362-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5080e131-dd9c-4d8c-bc77-5920939f59fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="57df68a9-8f5f-45ba-82f1-d09058542085" testId="932006bf-cc9a-1649-4dd2-a8c07ced02bd" testName="TestQuestionType" computerName="TW1FTENVY" duration="00:00:00.0086159" startTime="2014-04-07T20:53:18.3677630-05:00" endTime="2014-04-07T20:53:18.3807717-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57df68a9-8f5f-45ba-82f1-d09058542085">
+    </UnitTestResult>
+    <UnitTestResult executionId="ffa0f9b4-65cb-42f3-8e6b-f5cd7e7a67ef" testId="c5f604eb-bb73-2ed4-4b97-3223456ec415" testName="PlayerMoveStateTest" computerName="TW1FTENVY" duration="00:00:00.9133029" startTime="2014-04-07T20:53:18.3847763-05:00" endTime="2014-04-07T20:53:19.3015471-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffa0f9b4-65cb-42f3-8e6b-f5cd7e7a67ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="8978aed9-99e0-4fa3-927f-426e9015a371" testId="0a8df4b3-fa85-ec9c-d895-b7c85a5e6e45" testName="QuestionNotifyCorrectTest" computerName="TW1FTENVY" duration="00:00:00.6585083" startTime="2014-04-07T20:53:19.3075513-05:00" endTime="2014-04-07T20:53:19.9690742-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8978aed9-99e0-4fa3-927f-426e9015a371">
+    </UnitTestResult>
+    <UnitTestResult executionId="c22d3aa1-317e-4b31-86cc-e95ad87c2ba2" testId="25d0a51a-60b0-76e9-f661-66ae7f35161c" testName="QuestionNotifyIncorrectTest" computerName="TW1FTENVY" duration="00:00:00.6454611" startTime="2014-04-07T20:53:19.9760778-05:00" endTime="2014-04-07T20:53:20.6246086-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c22d3aa1-317e-4b31-86cc-e95ad87c2ba2">
+    </UnitTestResult>
+    <UnitTestResult executionId="544d69b2-f12c-4121-9548-612cddb95517" testId="6ddec735-adc4-4828-1b50-0783b6fe82b2" testName="QuestionNotifyTimedTest" computerName="TW1FTENVY" duration="00:00:00.6901528" startTime="2014-04-07T20:53:20.6296117-05:00" endTime="2014-04-07T20:53:21.3221753-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="544d69b2-f12c-4121-9548-612cddb95517">
+    </UnitTestResult>
+    <UnitTestResult executionId="cda97b26-044f-4bed-acc7-83ebb3726857" testId="8eeca9a8-568d-a203-d287-a4d2eed3e1dd" testName="QuestionNotifyTimedOutTest" computerName="TW1FTENVY" duration="00:00:00.8081313" startTime="2014-04-07T20:53:21.3271788-05:00" endTime="2014-04-07T20:53:22.1418631-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cda97b26-044f-4bed-acc7-83ebb3726857">
+    </UnitTestResult>
+    <UnitTestResult executionId="53cc4a07-a996-4cee-8ea3-433915b306e3" testId="b0b5b9af-8fcb-9aa2-b576-ea724fced88f" testName="PlayersTest1" computerName="TW1FTENVY" duration="00:00:00.5504928" startTime="2014-04-07T20:53:22.1458676-05:00" endTime="2014-04-07T20:53:22.7002658-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53cc4a07-a996-4cee-8ea3-433915b306e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad13a065-3a9e-4722-804d-e30a0315b149" testId="e0382ce5-6740-35b3-fff5-be32133f4b54" testName="PlayersTest2" computerName="TW1FTENVY" duration="00:00:00.6386191" startTime="2014-04-07T20:53:22.7052693-05:00" endTime="2014-04-07T20:53:23.3497255-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad13a065-3a9e-4722-804d-e30a0315b149">
+    </UnitTestResult>
+    <UnitTestResult executionId="1559722d-838d-435d-a385-60661b8be626" testId="a55ea7c9-eabb-9207-ac1a-8e11aa747df4" testName="SkipQuestionStateTest" computerName="TW1FTENVY" duration="00:00:00.8685179" startTime="2014-04-07T20:53:23.3547269-05:00" endTime="2014-04-07T20:53:24.2303498-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1559722d-838d-435d-a385-60661b8be626">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff0788e4-c7e1-401f-9480-2764b30baa7d" testId="77e10824-1cca-c689-50b2-ed0e80430907" testName="TileConstructorTest" computerName="TW1FTENVY" duration="00:00:00.0003515" startTime="2014-04-07T20:53:24.2343522-05:00" endTime="2014-04-07T20:53:24.2423716-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff0788e4-c7e1-401f-9480-2764b30baa7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8d4f5e4-1bf5-40bc-b460-e8959a974fda" testId="42431ad3-b2fa-3a89-f07f-b02ce47f85e3" testName="GetSetBoardXTest" computerName="TW1FTENVY" duration="00:00:00.0077640" startTime="2014-04-07T20:53:24.2463607-05:00" endTime="2014-04-07T20:53:24.2603714-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8d4f5e4-1bf5-40bc-b460-e8959a974fda">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5aae402-6b86-4216-9df5-cf0c3d9fbb41" testId="2ee5ec05-43c5-a370-94e2-7ce68113ecd3" testName="GetSetBoardYTest" computerName="TW1FTENVY" duration="00:00:00.0090277" startTime="2014-04-07T20:53:24.2844931-05:00" endTime="2014-04-07T20:53:24.3005173-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5aae402-6b86-4216-9df5-cf0c3d9fbb41">
+    </UnitTestResult>
+    <UnitTestResult executionId="209a7981-a79e-44c4-8c01-53459c75e04e" testId="72f264a5-7de2-336c-60e6-b904b0cc1eea" testName="IsAdjacentTest" computerName="TW1FTENVY" duration="00:00:00.0001727" startTime="2014-04-07T20:53:24.3065091-05:00" endTime="2014-04-07T20:53:24.3115113-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="209a7981-a79e-44c4-8c01-53459c75e04e">
+    </UnitTestResult>
+    <UnitTestResult executionId="6834000c-d2b2-449a-87ad-e14ac1c4fdd3" testId="e4ab14aa-1429-271f-5b09-0f8f32eeab9a" testName="TestStandardTile" computerName="TW1FTENVY" duration="00:00:00.0002334" startTime="2014-04-07T20:53:24.3165256-05:00" endTime="2014-04-07T20:53:24.3245338-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6834000c-d2b2-449a-87ad-e14ac1c4fdd3">
+    </UnitTestResult>
+    <UnitTestResult executionId="37793827-b0ca-49d6-852e-2a99c13d2b6b" testId="3a6c85dc-ff2e-cb74-a68e-e4c4f59a65bd" testName="TestMusicTile" computerName="TW1FTENVY" duration="00:00:00.0063801" startTime="2014-04-07T20:53:24.3295240-05:00" endTime="2014-04-07T20:53:24.3375305-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37793827-b0ca-49d6-852e-2a99c13d2b6b">
+    </UnitTestResult>
+    <UnitTestResult executionId="48ff5b64-3554-41b8-bfb7-51eabb08ce36" testId="fc573d78-4d31-4cef-4a5f-301b8eb35a18" testName="TestImageTile" computerName="TW1FTENVY" duration="00:00:00.0002095" startTime="2014-04-07T20:53:24.3415325-05:00" endTime="2014-04-07T20:53:24.3445346-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48ff5b64-3554-41b8-bfb7-51eabb08ce36">
+    </UnitTestResult>
+    <UnitTestResult executionId="de01a05e-b5d8-4f72-8309-090807fb6b56" testId="52f2ba69-e8af-366e-fa05-7e9d58be5419" testName="TestDeathTile" computerName="TW1FTENVY" duration="00:00:00.0061808" startTime="2014-04-07T20:53:24.3495386-05:00" endTime="2014-04-07T20:53:24.3585454-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de01a05e-b5d8-4f72-8309-090807fb6b56">
+    </UnitTestResult>
+    <UnitTestResult executionId="56b00bb3-a76a-4d25-a35b-c58671f9330f" testId="d3f09b35-b610-a3b7-aac9-aa4bbf66fea6" testName="TestJokerTile" computerName="TW1FTENVY" duration="00:00:00.0072457" startTime="2014-04-07T20:53:24.3635485-05:00" endTime="2014-04-07T20:53:24.3735564-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56b00bb3-a76a-4d25-a35b-c58671f9330f">
+    </UnitTestResult>
+    <UnitTestResult executionId="5b9f5664-d049-4089-890e-54e271c827fa" testId="93e1a339-56ec-6a9a-cc36-ee3412430608" testName="TileConstructorTest" computerName="TW1FTENVY" duration="00:00:00.0003250" startTime="2014-04-07T20:53:24.3775596-05:00" endTime="2014-04-07T20:53:24.3805605-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b9f5664-d049-4089-890e-54e271c827fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="9585ba96-99a1-43e0-aee2-89cbcd1c74aa" testId="f0bdd7dd-7cef-1459-6d80-5f06a72cf810" testName="GetSetPlayerTileTest" computerName="TW1FTENVY" duration="00:00:00.0003425" startTime="2014-04-07T20:53:24.3855640-05:00" endTime="2014-04-07T20:53:24.3885665-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9585ba96-99a1-43e0-aee2-89cbcd1c74aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="0752f7b3-74b2-477a-9ba1-0adfd45bf289" testId="c4cd8056-c9ff-caf6-98af-4ccd1972a29a" testName="GetSetPlayerNameTest" computerName="TW1FTENVY" duration="00:00:00.0002925" startTime="2014-04-07T20:53:24.3935696-05:00" endTime="2014-04-07T20:53:24.3975733-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0752f7b3-74b2-477a-9ba1-0adfd45bf289">
+    </UnitTestResult>
+    <UnitTestResult executionId="ccdfb0c8-1c47-4c59-8f58-097b34d8e32e" testId="d6f0928c-7367-b459-6ff5-32ca0241f57e" testName="MultiplePlayerTest" computerName="TW1FTENVY" duration="00:00:00.0102657" startTime="2014-04-07T20:53:24.4035771-05:00" endTime="2014-04-07T20:53:24.4165859-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccdfb0c8-1c47-4c59-8f58-097b34d8e32e">
+      <Output>
+        <StdOut>More then 4 players have been created.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4c3ffd85-926f-40c1-ab23-114a5ad4a5a2" testId="212fceb0-e09b-bfef-a8c4-50fb8b97b08a" testName="VictoryTest" computerName="TW1FTENVY" duration="00:00:00.6175893" startTime="2014-04-07T20:53:24.4205887-05:00" endTime="2014-04-07T20:53:25.0410548-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c3ffd85-926f-40c1-ab23-114a5ad4a5a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f187a97-b5a4-46bb-954c-41870458ff69" testId="3afc1bea-bfbf-3c8e-8104-72a764af8b32" testName="TestGetCurrentCategory1" computerName="TW1FTENVY" duration="00:00:00.0002903" startTime="2014-04-07T20:53:25.0460464-05:00" endTime="2014-04-07T20:53:25.0490600-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f187a97-b5a4-46bb-954c-41870458ff69">
+    </UnitTestResult>
+    <UnitTestResult executionId="86564786-b47d-4631-8f59-eadf45b5959d" testId="f1fc9670-606b-c73a-b756-bddec5b37878" testName="TestGetCurrentCategory2" computerName="TW1FTENVY" duration="00:00:27.9610221" startTime="2014-04-07T20:53:25.0530513-05:00" endTime="2014-04-07T20:53:53.0140734-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86564786-b47d-4631-8f59-eadf45b5959d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b55747e1-416f-4c5b-b21a-5eb620ca0d73" testId="6d90f370-9d6b-db58-3da4-8603bcc06965" testName="TestGetCurrentCategory3" computerName="TW1FTENVY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b55747e1-416f-4c5b-b21a-5eb620ca0d73">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab30f891-87d5-4c75-8a5b-1c09caacdaf1" testId="0981af74-4ce1-6ad4-aeb6-cf0728ecf654" testName="TestGetCurrentCategory4" computerName="TW1FTENVY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab30f891-87d5-4c75-8a5b-1c09caacdaf1">
+    </UnitTestResult>
+    <UnitTestResult executionId="e5af4ba1-4fac-48f7-a9d6-4a6da6d916ad" testId="dbf1d0a3-6fa9-ebb2-2c02-e59981d64ed1" testName="TestGetCurrentCategory5" computerName="TW1FTENVY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5af4ba1-4fac-48f7-a9d6-4a6da6d916ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ed953ca-f46f-417f-bacb-5bf2ad562461" testId="d22d02ed-bb5c-57c7-bac8-2a4213191ea2" testName="TestGetCurrentCategory6" computerName="TW1FTENVY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ed953ca-f46f-417f-bacb-5bf2ad562461">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc21c45b-aa4f-4dbe-b7df-2be0e1dc75f2" testId="fc6917c6-2e73-f40a-5bb6-252957ae3d5b" testName="TestGetLeftArrow" computerName="TW1FTENVY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc21c45b-aa4f-4dbe-b7df-2be0e1dc75f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="62bda89b-4d60-4bac-8a1c-d89cd211ed5b" testId="dee46b0c-2f9d-52fc-c7b4-b5b58ca85be6" testName="TestGetRightArrow" computerName="TW1FTENVY" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62bda89b-4d60-4bac-8a1c-d89cd211ed5b">
+    </UnitTestResult>
+  </Results>
+</TestRun>
